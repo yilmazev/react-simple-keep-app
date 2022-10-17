@@ -82,3 +82,16 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    #take-note {
+        width: 100%;
+        
+        .take-note-create-wrapper  {
+            .take-note-create  {
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+        }
+    }
+}

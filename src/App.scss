@@ -26,12 +26,18 @@ body {
 ::placeholder {
     color: #BDBDBE;
     opacity: 1;
-  }
+}
   
-  :-ms-input-placeholder {
+:-ms-input-placeholder {
     color: #BDBDBE;
-  }
+}
   
-  ::-ms-input-placeholder {
+::-ms-input-placeholder {
     color: #BDBDBE;
-  }
+}
+
+@media screen and (max-width: 800px) {
+    .app {
+        padding: 20px 50px;
+    }
+}
